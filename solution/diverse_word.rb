@@ -13,6 +13,7 @@ class DiverseWord
     con_a = 0
     con_b = 0
     con_c = 0
+
     while a != 0 || b != 0 || c != 0
       if (a >= b && a >= c && con_a < 2) || (con_b == 2 && a >= 1) || (con_c == 2 && a >= 1)
         ans += 'a'

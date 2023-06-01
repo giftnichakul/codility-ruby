@@ -27,6 +27,7 @@ RSpec.describe DiverseWord do
       expect(checkResult(test, 0, 1, 8)).to be true
     end
   end
+
   describe 'Correctness test' do
     it 'super_small' do
       test = DiverseWord.new(1, 0, 1).solution
